@@ -1,0 +1,12 @@
+[user]
+  email = michael@tunnel.ninja
+  name = Michael Zandstra
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  dc = diff --cached
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  unstage = reset HEAD --
+  last = log -1 HEAD
